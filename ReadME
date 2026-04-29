@@ -1,106 +1,52 @@
-# Globalne ocieplenie
+🌍 Globalne Ocieplenie / Zmiany Klimatu
 
+Python | Flask | SQLite | MIT License
 
-#🌍 Globalne Ocieplenie / Zmiany Klimatu
+📖 Opis projektu
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Flask](https://img.shields.io/badge/Flask-Web_App-green)
-![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey)
-![License](https://img.shields.io/badge/License-MIT-orange)
-
-## 📖 Opis projektu
-
-Projekt strony internetowej wykonanej w **Flasku**, która przedstawia temat **globalnego ocieplenia**, jego **przyczyn**, **skutków** oraz sposobów **ograniczania zmian klimatu**.
+Projekt strony internetowej wykonanej w Flasku, która przedstawia temat globalnego ocieplenia, jego przyczyn, skutków oraz sposobów ograniczania zmian klimatu.
 
 Aplikacja zawiera również formularz feedbacku, w którym użytkownik może przesłać swoje sugestie dotyczące działań proekologicznych.
 
----
+🚀 Funkcjonalności
 
-## 🚀 Funkcjonalności
+📄 Wyświetlanie strony informacyjnej o zmianach klimatu
+📝 Formularz do wysyłania feedbacku
+💾 Zapisywanie danych użytkownika do bazy danych
+📊 Prosta struktura danych inspirowana projektem typu diary
 
-* 📄 Wyświetlanie strony informacyjnej o zmianach klimatu
-* 📝 Formularz do wysyłania feedbacku
-* 💾 Zapisywanie danych użytkownika do bazy danych
-* 📊 Prosta struktura danych inspirowana projektem typu *diary*
+🗂️ Przechowywane dane:
 
-### 🗂️ Przechowywane dane:
+title – tytuł wpisu
+subtitle – podtytuł
+text – treść
+user_email – email użytkownika
 
-* **title** – tytuł wpisu
-* **subtitle** – podtytuł
-* **text** – treść
-* **user_email** – email użytkownika
+🛠️ Technologie
 
----
+Python
+Flask
+Flask-SQLAlchemy
+SQLite
+HTML
+CSS
 
-## 🛠️ Technologie
 
-* **Python**
-* **Flask**
-* **Flask-SQLAlchemy**
-* **SQLite**
-* **HTML**
-* **CSS**
+📁 Struktura projektu
 
----
+app.py
+templates/
+static/
+database.db
+README.md
 
-## ⚙️ Instalacja i uruchomienie
+🧪 Możliwe ulepszenia
 
-### 1. Sklonuj repozytorium
+🔐 Logowanie użytkowników
+🌐 API do pobierania danych
+📈 Statystyki i wizualizacja danych
+🎨 Lepszy UI (np. Bootstrap)
 
-```bash
-git clone https://github.com/twoj-login/twoje-repo.git
-cd twoje-repo
-```
+👨‍💻 Autor
 
-### 2. Utwórz środowisko wirtualne (opcjonalnie, ale zalecane)
-
-```bash
-python -m venv venv
-source venv/bin/activate   # Linux / Mac
-venv\Scripts\activate      # Windows
-```
-
-### 3. Zainstaluj zależności
-
-```bash
-pip install flask flask_sqlalchemy
-```
-
-### 4. Uruchom aplikację
-
-```bash
-python app.py
-```
-
----
-
-## 📁 Struktura projektu
-
-```
-├── app.py
-├── templates/
-├── static/
-├── database.db
-└── README.md
-```
-
----
-
-## 🧪 Możliwe ulepszenia
-
-* 🔐 Logowanie użytkowników
-* 🌐 API do pobierania danych
-* 📈 Statystyki i wizualizacja danych
-* 🎨 Lepszy UI (np. Bootstrap)
-
----
-
-## 👨‍💻 Autor
-
-Projekt wykonany przez: **demont275**
-
----
-
-## 📄 Licencja
-
-Ten projekt jest dostępny na licencji **MIT**.
+Projekt wykonany przez: demont275
