@@ -1,4 +1,4 @@
-#🌍 Globalne Ocieplenie / Zmiany Klimatu
+# 🌍 Globalne Ocieplenie / Zmiany Klimatu
 
 # Ten projek jest edukacyjnym quizem klimatycznym, który ma być też szablonem. Zapraszam do dokumentacji!
 
