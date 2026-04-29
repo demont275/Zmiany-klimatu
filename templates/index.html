@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <title>Globalne Ocieplenie / Zmiany klimatu</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav main-nav">
+        <ul class="main-nav__list main-list">
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#home">Wstęp</a>
+          </li>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#about">Przyczyny i skutki</a>
+          </li>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#skills">Jak ograniczać zmiany klimatu</a>
+          </li>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#feedback">Feedback</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="main__home home" id="home">
+        <h1 class="home__title">GLOBALNE OCIEPLENIE I ZMIANY KLIMATU</h1>
+        <p class="home__subtitle">
+          Globalne ocieplenie to długotrwały wzrost średniej temperatury na Ziemi. Jest ono częścią szerszego zjawiska,
+          jakim są zmiany klimatu.
+        </p>
+      </section>
+
+      <section class="main__about about" id="about">
+        <h2 class="about__title">PRZYCZYNY I SKUTKI</h2>
+        <div class="about__info info-block">
+          <div class="info-block__text">
+            <h3 class="info-block__subtitle">Przyczyny</h3>
+            <ul class="info-block__list">
+              <li>spalanie paliw kopalnych (węgiel, ropa, gaz)</li>
+              <li>wycinanie lasów (mniej drzew = mniej pochłanianego CO2)</li>
+              <li>przemysł i transport</li>
+              <li>rolnictwo (emisje metanu z hodowli zwierząt)</li>
+            </ul>
+            <h3 class="info-block__subtitle info-block__subtitle--effects">Skutki</h3>
+            <ul class="info-block__list info-block__list--effects">
+              <li>Wzrost temperatur i częstsze fale upałów</li>
+              <li>Podnoszenie się poziomu mórz i oceanów</li>
+              <li>Topnienie lodowców i czap polarnych</li>
+              <li>Częstsze burze, susze i powodzie</li>
+              <li>Zagrożenie dla wielu gatunków roślin i zwierząt</li>
+            </ul>
+          </div>
+          <img
+            class="info-block__img"
+            src="../static/img/profile.png"
+            alt="profil"
+            width="420"
+            height="420"
+          />
+        </div>
+      </section>
+
+      <section class="main__skills skills" id="skills">
+        <h2 class="skills__title">JAK OGRANICZAĆ ZMIANY KLIMATU</h2>
+        <div class="skills__content">
+          <div class="skills__form">
+            <ul class="info-block__list skills__list-simple">
+              <li>korzystanie z odnawialnych źródeł energii (wiatr, słońce)</li>
+              <li>oszczędzanie energii</li>
+              <li>ograniczenie zużycia plastiku</li>
+              <li>korzystanie z transportu publicznego lub roweru</li>
+              <li>sadzenie drzew i ochrona lasów</li>
+            </ul>
+            <div class="skills__buttons">
+              <a class="skill__button skill__button--boxed" href="https://kb.pl/aktualnosci/fotowoltaika/trwalosc-paneli-fotowoltaicznych/" target="_blank" rel="noreferrer">Odnawialne źródła energii</a>
+              <a class="skill__button skill__button--boxed" href="https://naukaoklimacie.pl/aktualnosci/dobre-zycie-przy-niskim-zuzyciu-energii-czyli-nowy-rozdzial-w-raporcie-ipcc" target="_blank" rel="noreferrer">Oszczędzaj energię</a>
+              <a class="skill__button skill__button--boxed" href="https://pomorskialarmekologiczny.pl/rower-jest-dziesiec-razy-lepszy-dla-klimatu-niz-samochod-elektryczny/" target="_blank" rel="noreferrer">Wybieraj rower</a>
+              <a class="skill__button skill__button--boxed" href="https://chronmylasy.pl/" target="_blank" rel="noreferrer">Chroń lasy</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__feedback feedback" id="feedback">
+        <h2 class="feedback__title">JAKIE SĄ TWOJE POMYSŁY NA OGRANICZENIE ZMIAN KLIMATU?</h2>
+        <form action="/feedback" method="POST" class="feedback__form form">
+          <label for="email">
+            <input type="email" class="form__input" name="email" id="email" placeholder="Twój e-mail" required />
+          </label>
+          <label for="text">
+            <textarea name="text" class="form__input" id="text" cols="70" rows="10" required placeholder="Napisz swój pomysł"></textarea>
+          </label>
+          <button class="form__button" type="submit">WYŚLIJ</button>
+        </form>
+
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
