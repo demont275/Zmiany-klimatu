@@ -1,3 +1,33 @@
-Projekt strony o zmianach klimatu (portfolio)
+# Globalne Ocieplenie / Zmiany Klimatu
 
-Strona przedstawia podstawowe informacje o zmianach klimatu oraz sposoby jego ograniczania. We wstępie wyjaśniono czym jest globalne ocieplenie, jakie są jego główne przyczyny oraz najważniejsze skutki dla środowiska i ludzi oraz jak mozna jemu zapobiec.
+Projekt strony internetowej wykonanej we Flasku. Strona opisuje globalne ocieplenie, jego przyczyny, skutki oraz sposoby ograniczania zmian klimatu.
+
+Aplikacja posiada formularz feedbacku, w którym użytkownik może wpisać swój e-mail oraz pomysł na ograniczenie zmian klimatu. Dane z formularza są zapisywane w bazie danych SQLite za pomocą Flask-SQLAlchemy.
+
+## Technologie
+
+- Python
+- Flask
+- Flask-SQLAlchemy
+- SQLite
+- HTML
+- CSS
+
+## Funkcje
+
+- wyświetlanie strony informacyjnej o zmianach klimatu
+- formularz do wysyłania feedbacku
+- zapisywanie feedbacku do bazy danych
+- baza danych podobna do projektu diary
+- przechowywanie pól:
+  - title
+  - subtitle
+  - text
+  - user_email
+
+## Instalacja
+
+Najpierw zainstaluj wymagane biblioteki:
+
+```powershell
+pip install flask flask_sqlalchemy
